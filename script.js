@@ -5,7 +5,6 @@ let p = ["A","B","C","D"]; //ARRAY PROCESSI
 let at = ["9","9.05","9.07","9.08"]; //ARRAY TEMPO DI ARRIVO
 let bt = ["18","14","11","12"]; //ARRAY TEMPO DI BURST
 let rbt = []; //ARRAY TEMPO DI BURST RIMANENTE
-let pr = []; //ARRAY PRIORITÀ
 
 /* FUNZIONE RESET
  La tabella dei processi viene sostituita con una tabella vuota
@@ -41,7 +40,6 @@ function start(){
        tdEl.id = "idP" + i;
        tdEl.appendChild(document.createTextNode(rbt[i]));
        tdEl = trEl.insertCell();
-       tdEl.appendChild(document.createTextNode(pr[i]));
    }
    tableEl.replaceChild(newTBodyEl, oldTBodyEl);
    document.getElementById("output").style.display = "block";
