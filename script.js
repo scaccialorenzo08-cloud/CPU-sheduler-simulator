@@ -1,9 +1,9 @@
 console.log('Happy developing ✨')
 
 // DICHIARAZIONE VARIABILI GLOBALI
-let p = []; //ARRAY PROCESSI
-let at = []; //ARRAY TEMPO DI ARRIVO
-let bt = []; //ARRAY TEMPO DI BURST
+let p = [A,B,C,D]; //ARRAY PROCESSI
+let at = [9,9.05,9.07,9.08]; //ARRAY TEMPO DI ARRIVO
+let bt = [18,14,11,12]; //ARRAY TEMPO DI BURST
 let rbt = []; //ARRAY TEMPO DI BURST RIMANENTE
 let pr = []; //ARRAY PRIORITÀ
 
