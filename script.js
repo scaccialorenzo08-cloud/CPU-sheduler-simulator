@@ -1,4 +1,4 @@
-console.log('Happy developing ✨')
+console.log('Happy developing ')
 
 // DICHIARAZIONE VARIABILI GLOBALI
 let p = ["A","B","C","D"]; //ARRAY PROCESSI
