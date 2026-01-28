@@ -6,9 +6,43 @@
     <body>
         <h1>FCFS</h1>
 
+        <p>
+            FCFS (First-Come, First-Served)
+        </p>
+
+        <p>
+            La politica di scheduling FCFS (First-Come, First-Served) è una delle tecniche più semplici
+            per la gestione della CPU nei sistemi operativi.<br>
+            Il suo principio di funzionamento è analogo a una coda FIFO: i processi vengono eseguiti
+            nell’ordine in cui arrivano al sistema.
+        </p>
+
+        <p>
+            Quando un processo entra nello stato di ready, viene inserito in una coda.<br>
+            La CPU assegna il processore al processo che si trova in testa alla coda e lo mantiene
+            in esecuzione fino al completamento o al blocco per operazioni di I/O.<br>
+            Solo dopo, la CPU passa al processo successivo.
+        </p>
+
+        <p>
+            <strong>Caratteristiche principali:</strong><br>
+            Non preemptive: una volta che un processo ottiene la CPU, non può essere interrotto da altri processi.<br>
+            Semplice da implementare: richiede solo una coda FIFO.<br>
+            Equo in apparenza: tutti i processi vengono serviti, senza priorità.
+        </p>
+
+        <p>
+            <strong>Vantaggi:</strong><br>
+            Facilità di implementazione e gestione.<br>
+            Nessun overhead dovuto a cambi di contesto frequenti.<br>
+            Comportamento prevedibile.
+        </p>
+
+        <p>
+            <strong>Svantaggi:</strong><br>
+            Effetto convoglio: un processo lungo può bloccare molti processi brevi che lo seguono.<br>
+            Tempi di attesa medi elevati, soprattutto in presenza di carichi misti.<br>
+            Poco adatto a sistemi interattivi o real-time.
+        </p>
     </body>
-    
 </html>
-
-
-

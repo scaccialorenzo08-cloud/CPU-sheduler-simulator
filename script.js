@@ -1,6 +1,3 @@
-console.log('Happy developing ')
-
-// DICHIARAZIONE VARIABILI GLOBALI
 
 let p = [];   //ARRAY PROCESSI
 let at = [];  //ARRAY TEMPO DI ARRIVO
